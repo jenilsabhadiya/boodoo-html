@@ -1,0 +1,794 @@
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero-data h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5rem;
+    color: #ffffff;
+  }
+
+  .about img {
+    padding-right: 0;
+    border-right: none;
+    height: 41.6rem;
+  }
+
+  .sub-title {
+    font-size: 3.4rem;
+  }
+
+  .about1 {
+    padding-left: 0;
+  }
+  .about1 button {
+    margin-top: 0;
+  }
+
+  .about p {
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+  section {
+    padding-top: 10rem;
+  }
+
+  .btn {
+    width: 20rem;
+    font-size: 2.4rem;
+    padding: 9px 0;
+  }
+  #super h4 {
+    font-size: 4rem;
+  }
+  #super p {
+    margin-top: 0rem;
+    font-size: 1rem;
+  }
+  .services div:nth-child(odd) .services-img {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .services div:nth-child(even) .services-img {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .services {
+    row-gap: 5rem;
+  }
+  .horoscope1 {
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+  .Appointment-form div:nth-child(even) .Appointment-form-all {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .price-data {
+    text-align: center;
+  }
+
+  .Appointment-form div:nth-child(odd) .Appointment-form-all {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  #hero {
+    height: auto;
+  }
+  .loopkad img {
+    width: 30%;
+  }
+  .loopkad h4 {
+    font-size: 3rem;
+  }
+  .loopkad {
+    justify-content: center;
+    margin-bottom: 10rem;
+  }
+  .all-about {
+    row-gap: 3rem;
+  }
+  .services h4 {
+    font-size: 2.6rem;
+    margin-top: 3rem;
+  }
+  .services p {
+    font-size: 1.2rem;
+  }
+
+  .counter {
+    margin-top: 10rem;
+  }
+  .price-all div:nth-child(even) .card {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .price-all div:nth-child(odd) .card {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .price-all {
+    row-gap: 2rem;
+    margin: 0;
+  }
+  .price-data h5 {
+    font-size: 4rem;
+  }
+  .price-data p {
+    font-size: 1.4rem;
+  }
+  .price-data i {
+    font-size: 1.4rem;
+    margin-right: 1.4rem;
+    padding: 1rem;
+  }
+  .price-data a {
+    width: 20rem;
+    margin-top: 3rem;
+    padding: 1rem 0;
+  }
+
+  .Appointment-form input {
+    padding: 1.3rem;
+    font-size: 1.4rem;
+  }
+  .Appointment-form,
+  .form-label {
+    margin-bottom: 1rem;
+    row-gap: 1rem;
+  }
+  .Appointment-form label {
+    font-size: 2.2rem;
+  }
+  .services-select {
+    padding: 1.3rem;
+    font-size: 1.4rem;
+  }
+  .membership-data h2 {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+  .horoscope h4 {
+    font-size: 3.4rem;
+  }
+  .horoscope img {
+    width: 60%;
+  }
+  .why {
+    margin: 5.2rem 0 0 0;
+  }
+  .why1 {
+    margin: 0;
+  }
+  .blog {
+    margin: 0 !important;
+  }
+  .happy-arrow img {
+    height: 20rem;
+  }
+  .happy p::before {
+    left: 0;
+    top: -1.5rem;
+    width: 40px;
+    height: 40px;
+  }
+  .why1 img {
+    width: 30%;
+  }
+  .counter p {
+    font-size: 6rem;
+  }
+  .SERVICES-ul li {
+    padding: 0.5rem 0;
+  }
+  .happy .swiper-slide img {
+    height: 30rem;
+  }
+  .happy p {
+    margin-top: 5rem;
+  }
+  .happy .swiper-button-next,
+  .happy .swiper-button-prev {
+    top: 14rem;
+  }
+  .blog img {
+    height: 30rem;
+  }
+  .services img {
+    width: 100%;
+    height: 20rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+  .sub-title {
+    font-size: 3.4rem;
+  }
+
+  .hero-data h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .all-about {
+    row-gap: 5rem;
+  }
+
+  .about1 {
+    padding-left: 0;
+  }
+
+  .about img {
+    padding-right: 0;
+    border-right: none;
+  }
+
+  .about1 button {
+    margin-top: 0;
+  }
+  .about p {
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+  section {
+    padding-top: 10rem;
+  }
+  .btn {
+    width: 20rem;
+    font-size: 2.4rem;
+    padding: 9px 0;
+  }
+  #super h4 {
+    font-size: 6rem;
+  }
+  #super p {
+    margin-top: 0rem;
+  }
+  .services div:nth-child(odd) .services-img {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .services div:nth-child(even) .services-img {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .services {
+    row-gap: 5rem;
+  }
+  .horoscope1 {
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+  .Appointment-form div:nth-child(even) .Appointment-form-all {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .Appointment-form div:nth-child(odd) .Appointment-form-all {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  #hero {
+    height: auto;
+  }
+  .loopkad img {
+    width: 30%;
+  }
+  .loopkad h4 {
+    font-size: 3.4rem;
+  }
+  .loopkad {
+    justify-content: center;
+  }
+  .services h4 {
+    font-size: 2.4rem;
+    margin-top: 3rem;
+  }
+  .services p {
+    font-size: 1.4rem;
+  }
+  .counter {
+    margin-top: 10rem;
+  }
+  .Appointment-form input {
+    padding: 1.3rem;
+    font-size: 1.4rem;
+  }
+  .Appointment-form,
+  .form-label {
+    margin-bottom: 1rem;
+    row-gap: 1rem;
+  }
+  .Appointment-form label {
+    font-size: 2.2rem;
+  }
+  .services-select {
+    padding: 1.3rem;
+    font-size: 1.4rem;
+  }
+  .membership-data h2 {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+  .horoscope h4 {
+    font-size: 3.4rem;
+  }
+  .horoscope img {
+    width: 60%;
+  }
+  .why {
+    margin: 5.2rem 0 0 0;
+  }
+  .why1 {
+    margin: 0;
+  }
+  .price-all div:nth-child(even) .card {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .price-all div:nth-child(odd) .card {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .price-all {
+    row-gap: 2rem;
+    margin: 0;
+  }
+  .horoscope h4 {
+    font-size: 4.4rem;
+  }
+  .happy-arrow img {
+    height: 20rem;
+  }
+  .happy p::before {
+    left: 0.5rem;
+    width: 60px;
+    height: 60px;
+    top: -2.2rem;
+  }
+  .counter p {
+    font-size: 6rem;
+  }
+  .price-data a {
+    width: 20rem;
+    margin-top: 3rem;
+    padding: 1rem 0;
+  }
+  .happy .swiper-slide img {
+    height: 30rem;
+  }
+  .happy p {
+    margin-top: 5rem;
+  }
+  .happy .swiper-button-next,
+  .happy .swiper-button-prev {
+    top: 14rem;
+  }
+  .blog img {
+    height: 30rem;
+  }
+  .services img {
+    width: 100%;
+    height: 20rem;
+  }
+  .price-data {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 56.25%;
+  }
+  .sub-title {
+    font-size: 4.1rem;
+  }
+  .about p {
+    max-width: 71%;
+    margin-top: 10rem;
+  }
+  section {
+    padding-top: 10rem;
+  }
+
+  .btn {
+    width: 20rem;
+    font-size: 2.4rem;
+    padding: 15px 0;
+  }
+  .hero-data h1 {
+    font-size: 6rem;
+    line-height: 9rem;
+  }
+  #super h4 {
+    font-size: 5rem;
+  }
+  #super p {
+    margin-top: 0;
+  }
+  .services div:nth-child(odd) .services-img {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .services div:nth-child(even) .services-img {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .services {
+    row-gap: 2rem;
+  }
+
+  .about img {
+    padding-right: 0;
+    border-right: none;
+  }
+
+  #hero {
+    height: auto;
+  }
+  .services h4 {
+    font-size: 2.6rem;
+    margin-top: 3rem;
+  }
+  .services p {
+    font-size: 1.2rem;
+  }
+  .price-data h5 {
+    font-size: 4rem;
+  }
+  .price-data p {
+    font-size: 1.4rem;
+  }
+  .price-data i {
+    font-size: 1.4rem;
+    margin-right: 1.4rem;
+  }
+  .price-data a {
+    width: 20rem;
+    margin-top: 3rem;
+    padding: 1rem 0;
+  }
+
+  .horoscope img {
+    width: 45%;
+  }
+  .counter p {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .sub-title {
+    font-size: 5.4rem;
+  }
+
+  .btn {
+    width: 30rem;
+    font-size: 2.4rem;
+    padding: 15px 0;
+  }
+
+  .all-about {
+    row-gap: 0;
+  }
+
+  .about1 {
+    padding-left: 11.5rem;
+  }
+  .about p {
+    margin-top: 5rem;
+  }
+  .about1 button {
+    margin-top: 22.5rem;
+  }
+  section {
+    padding-top: 20rem;
+  }
+  .hero-data h1 {
+    font-size: 8rem;
+    line-height: 9rem;
+  }
+  .services div:nth-child(even) .services-img {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .services div:nth-child(odd) .services-img {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .services {
+    row-gap: 6rem;
+  }
+  .horoscope1 {
+    margin-top: 10rem;
+    gap: 0;
+  }
+  .loopkad img {
+    width: 100%;
+  }
+  .loopkad {
+    justify-content: space-between;
+  }
+  .loopkad h4 {
+    font-size: 3.4rem;
+  }
+  .about img {
+    padding-right: 11.5rem;
+    border-right: 2px solid var(--secondary-color);
+  }
+  #super p {
+    margin-top: 10rem;
+  }
+  .services h4 {
+    font-size: 3.4rem;
+    margin-top: 3rem;
+  }
+  .services p {
+    font-size: 1.6rem;
+  }
+  .counter {
+    margin-top: 20rem;
+  }
+  .Appointment-form input {
+    padding: 2.3rem;
+    font-size: 1.9rem;
+  }
+  .Appointment-form,
+  .form-label {
+    margin-bottom: 2rem;
+    row-gap: 3rem;
+  }
+  .Appointment-form label {
+    font-size: 2.2rem;
+  }
+  .services-select {
+    padding: 2.3rem;
+    font-size: 1.9rem;
+  }
+  .membership-data h2 {
+    font-size: 7rem;
+    line-height: 8rem;
+  }
+  .price-all div:nth-child(even) .card {
+    margin-right: 4.95rem;
+    margin-left: 4.95rem;
+  }
+
+  .price-all div:nth-child(odd) .card {
+    margin-right: 4.95rem;
+    margin-left: 4.95rem;
+  }
+  .price-all {
+    margin: 0;
+    row-gap: 10rem;
+  }
+  .horoscope img {
+    width: 100%;
+  }
+  .happy-arrow img {
+    height: 30rem;
+  }
+  #hero {
+    padding-top: 11.5rem;
+  }
+  .blog div:nth-child(even) .blog-data {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .blog div:nth-child(odd) .blog-data {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .blog p {
+    font-size: 1.2rem;
+  }
+
+  .blog h4 {
+    font-size: 1.9rem;
+  }
+  .happy .swiper-slide img {
+    height: 45rem;
+  }
+  .happy p {
+    margin-top: 8rem;
+  }
+  .happy .swiper-button-next,
+  .happy .swiper-button-prev {
+    top: 22rem;
+  }
+  .blog img {
+    height: 45rem;
+  }
+  .services img {
+    width: 100%;
+    height: 30rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  #hero {
+    height: 100vh;
+    padding-top: 19.5rem;
+  }
+
+  .hero-data h1 {
+    font-size: 7.9rem;
+    line-height: 9rem;
+  }
+
+  .sub-title {
+    font-size: 6.4rem;
+  }
+  #super h4 {
+    font-size: 7rem;
+  }
+
+  .about p {
+    margin-top: 10rem;
+  }
+  .about1 button {
+    margin-top: 12.5rem;
+  }
+  #super p {
+    margin-top: 14rem;
+  }
+  .services h4 {
+    font-size: 2.9rem;
+    margin-top: 4rem;
+  }
+
+  .Appointment-form,
+  .form-label {
+    margin-bottom: 3rem;
+    row-gap: 5rem;
+  }
+  .Appointment-form label {
+    font-size: 3.2rem;
+  }
+
+  .horoscope h4 {
+    font-size: 4.4rem;
+  }
+  .price-all {
+    margin: 0 -4.95rem;
+  }
+  .happy-arrow img {
+    height: 40rem;
+  }
+  .blog p {
+    font-size: 1.2rem;
+  }
+
+  .blog h4 {
+    font-size: 1.9rem;
+  }
+  .happy p::before {
+    left: 0.5rem;
+    width: 100px;
+    height: 100px;
+    top: -5.2rem;
+  }
+  .counter p {
+    font-size: 10rem;
+  }
+  .membership-data h2 {
+    font-size: 8rem;
+    line-height: 9rem;
+  }
+  .price-data {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+  .sub-title {
+    font-size: 7.4rem;
+  }
+  #super p {
+    margin-top: 16rem;
+  }
+  .services div:nth-child(even) .services-img {
+    margin-right: 42px;
+    margin-left: 75px;
+  }
+
+  .services div:nth-child(odd) .services-img {
+    margin-right: 75px;
+    margin-left: 42px;
+  }
+
+  .services {
+    row-gap: 15rem;
+  }
+  .services h4 {
+    font-size: 3.8rem;
+    margin-top: 5rem;
+  }
+  .services p {
+    font-size: 1.8rem;
+  }
+  .price-all div:nth-child(even) .card {
+    margin-right: 4.95rem;
+    margin-left: 4.95rem;
+  }
+
+  .price-all div:nth-child(odd) .card {
+    margin-right: 4.95rem;
+    margin-left: 4.95rem;
+  }
+  .price-all {
+    row-gap: 2rem;
+  }
+  .why {
+    margin: 17.2rem -4.5rem 0 -4.5rem;
+  }
+  .why1 {
+    margin: 0 4.5rem;
+  }
+  .Appointment-form div:nth-child(even) .Appointment-form-all {
+    margin-right: 0px;
+    margin-left: 40px;
+  }
+
+  .Appointment-form div:nth-child(odd) .Appointment-form-all {
+    margin-right: 40px;
+    margin-left: 0px;
+  }
+  .Appointment-form input {
+    padding: 3.3rem;
+    font-size: 2.4rem;
+  }
+  .services-select {
+    padding: 3.3rem;
+    font-size: 2.4rem;
+  }
+  .hero-data h1 {
+    font-size: 8.9rem;
+    line-height: 9rem;
+  }
+  .blog div:nth-child(even) .blog-data {
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+  }
+
+  .blog div:nth-child(odd) .blog-data {
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+  }
+  .happy .swiper-slide img {
+    height: 51.2rem;
+  }
+  .happy p {
+    margin-top: 10.9rem;
+  }
+  .happy .swiper-button-next,
+  .happy .swiper-button-prev {
+    top: 25rem;
+  }
+}

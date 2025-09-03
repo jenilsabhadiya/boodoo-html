@@ -1,0 +1,736 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 1rem = 10px */
+  /* font-size:10px; */
+
+  /* 10/16=0.625*100=62.5% */
+  font-size: 62.5%;
+}
+
+:root {
+  --primary-color: #c8191c;
+  --secondary-color: #ffffff;
+}
+
+body {
+  font-family: "Alegreya" !important;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  font-size: 1.8rem !important;
+  font-weight: 700 !important;
+  color: var(--secondary-color) !important;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 9999;
+  background-color: #000000;
+}
+
+.btn {
+  width: 30rem;
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 2.4rem;
+  padding: 15px 0;
+}
+
+section {
+  padding-top: 20rem;
+}
+
+.main-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.sub-title {
+  font-size: 8.4rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+
+  /* max-width: 57.4rem; */
+}
+
+label {
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+/**********************hero*********************/
+
+#hero {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(#000000 33%, var(--primary-color) 200%);
+}
+
+#hero::before {
+  content: "";
+  position: absolute;
+  background-image: url(../image/hero-banner.png);
+  inset: 0;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.1;
+}
+
+.hero-data {
+  max-width: 156.7rem;
+  z-index: 999;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+}
+
+.hero-data h1 {
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 9rem;
+  color: #ffffff;
+}
+
+.hero-data p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 3.6rem;
+  color: #ffffff;
+  max-width: 90.6rem;
+  margin: 5.5rem auto;
+}
+
+#hero {
+  margin-top: 0;
+  padding-top: 19.5rem;
+}
+
+/***********************************************/
+
+/**********************LOOPKAD*********************/
+
+#loopkad {
+  background: linear-gradient(0deg, #000000 33%, var(--primary-color) 200%);
+}
+
+.loopkad {
+  margin-bottom: 20rem;
+  justify-content: space-between;
+  row-gap: 5rem;
+}
+
+.loopkad img {
+  width: 100%;
+}
+
+.loopkad h4 {
+  margin-top: 1rem;
+  color: var(--secondary-color);
+  font-size: 4.4rem;
+  font-weight: 700;
+}
+
+.all-about {
+  row-gap: 3rem;
+}
+
+.about img {
+  width: 100%;
+  height: 50.6rem;
+  padding-right: 11.5rem;
+  border-right: 2px solid var(--secondary-color);
+}
+
+.about p {
+  max-width: 71%;
+  margin-top: 10rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+.about1 {
+  padding-left: 11.5rem;
+}
+
+.about1 button {
+  margin-top: 9.5rem;
+}
+/***********************************************/
+
+/**********************super*********************/
+
+#super {
+  background: linear-gradient(#000000 33%, var(--primary-color) 200%);
+}
+
+#super h4 {
+  font-size: 10rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+#super p {
+  margin-top: 10rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+#super img {
+  width: 100%;
+  height: 33.6rem;
+}
+.team-img {
+  padding: 0;
+}
+
+/************************************************/
+
+/****************************services********************/
+
+#services {
+  background: linear-gradient(0deg, #000000 33%, var(--primary-color) 200%);
+}
+
+.services {
+  row-gap: 15rem;
+  margin-top: 10rem;
+}
+
+.services img {
+  width: 100%;
+  height: 20rem;
+}
+
+.services h4 {
+  font-size: 4.4rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-top: 5rem;
+  text-transform: uppercase;
+}
+
+.services p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+  margin-top: 2rem;
+}
+
+.services div:nth-child(even) .services-img {
+  margin-right: 42px;
+  margin-left: 75px;
+}
+
+.services div:nth-child(odd) .services-img {
+  margin-right: 75px;
+  margin-left: 42px;
+}
+
+/************************************************/
+/************************* why ***********************/
+
+#why {
+  background: linear-gradient(#000000 33%, var(--primary-color) 200%);
+}
+
+.why {
+  margin: 17.2rem -9.1rem 0 -9.1rem;
+  justify-content: center;
+  row-gap: 5rem;
+}
+
+.why h4 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+
+.why p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+  margin-top: 3rem;
+}
+
+.why1 {
+  margin: 0 9.1rem;
+}
+/************************************************/
+
+/************************** horoscope **********************/
+
+#horoscope {
+  background: linear-gradient(0deg, #000000 33%, var(--primary-color) 200%);
+}
+
+.horoscope {
+  align-items: center;
+  justify-content: center;
+}
+.horoscope img {
+  width: 100%;
+}
+
+.horoscope h4 {
+  font-size: 5.4rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.horoscope p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+.horoscope1 {
+  margin-top: 10rem;
+  gap: 8.1rem;
+}
+
+.counter {
+  margin-top: 20rem;
+}
+
+.counter h4 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.counter p {
+  font-size: 10rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+/**************************** Appointment ********************/
+
+/************************************************/
+
+#Appointment {
+  background: linear-gradient(#000000 33%, var(--primary-color) 200%);
+}
+
+.Appointment-form label {
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.Appointment-form input {
+  padding: 3.3rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+  background-color: transparent;
+}
+
+.Appointment-form input::placeholder {
+  color: var(--secondary-color);
+}
+
+.Appointment-form input::placeholder:hover {
+  color: var(--primary-color);
+}
+
+.services-select {
+  padding: 3.3rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  background-color: transparent;
+  color: var(--secondary-color);
+}
+
+.services-select option {
+  color: black;
+  /* background-color: transparent; */
+}
+
+.Appointment-form,
+.form-label {
+  margin-bottom: 3rem;
+  row-gap: 5rem;
+}
+
+.Appointment-form div:nth-child(even) .Appointment-form-all {
+  margin-right: 0px;
+  margin-left: 40px;
+}
+
+.Appointment-form div:nth-child(odd) .Appointment-form-all {
+  margin-right: 40px;
+  margin-left: 0px;
+}
+
+.Appointment-form button {
+  margin: 0 0 0 0.7rem;
+}
+
+/************************************************/
+
+/**********************membership*********************/
+
+#membership {
+  position: relative;
+  margin-top: 0;
+  padding: 10.5rem 0;
+  background: linear-gradient(#000000 33%, var(--primary-color) 200%);
+}
+
+#membership::before {
+  content: "";
+  position: absolute;
+  background-image: url(../image/membership_banner.png);
+  inset: 0;
+  background-size: 80% 100%;
+  background-position: center center;
+  opacity: 0.1;
+  background-repeat: no-repeat;
+}
+
+.membership-data {
+  /* max-width: 156.7rem; */
+  z-index: 999;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+}
+
+.membership-data h2 {
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 9rem;
+  color: #ffffff;
+  margin-bottom: 6rem;
+}
+
+.membership-data p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 3.6rem;
+  color: #ffffff;
+  max-width: 92rem;
+  margin: 0 auto;
+}
+
+.membership-data button {
+  margin-top: 5rem;
+}
+/***********************************************/
+/*********************Membership-price******************/
+
+#membership-price {
+  background: linear-gradient(0deg, #000000 33%, var(--primary-color) 200%);
+}
+.price-all {
+  margin: 0 -4.95rem;
+  justify-content: center;
+  row-gap: 10rem;
+}
+
+.card {
+  background-color: transparent;
+  border: 2px solid var(--secondary-color);
+  padding: 6rem 3.7rem;
+  color: var(--secondary-color);
+}
+
+.card:hover {
+  background-color: var(--primary-color);
+  transition: all 0.3s;
+}
+
+.price-data h4 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.price-data h5 {
+  font-size: 7rem;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+.price-data p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 3rem 0 0 0;
+}
+
+.price-data i {
+  font-size: 2.4rem;
+  color: black;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-right: 2.4rem;
+}
+
+.price-data a {
+  margin-top: 8rem;
+  padding: 2rem 0;
+  width: 32rem;
+}
+
+.price-data:hover a {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  transition: all 0.3s;
+}
+
+.price-all div:nth-child(even) .card {
+  margin-right: 4.95rem;
+  margin-left: 4.95rem;
+}
+
+.price-all div:nth-child(odd) .card {
+  margin-right: 4.95rem;
+  margin-left: 4.95rem;
+}
+/*****************Membership-price-end*****************/
+
+/***************** happy *****************/
+
+#happy {
+  background: linear-gradient(#000000 33%, var(--primary-color) 200%);
+}
+
+.happy-arrow img {
+  height: 40rem;
+  margin: 10rem 0;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.happy-data {
+  max-width: 47.6rem;
+}
+
+.happy .swiper-slide {
+  text-align: left;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.happy .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 51.2rem;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.happy p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+  margin-top: 10.9rem;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.happy p::before {
+  content: "";
+  position: absolute;
+  background-image: url(../image/“.png);
+  width: 100px;
+  height: 100px;
+  top: -5.2rem;
+  left: -2.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.happy h4 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+  margin-top: 1.5rem;
+}
+
+.happy .swiper-button-next,
+.happy .swiper-button-prev {
+  color: white;
+  width: 5.4rem;
+  height: 5.4rem;
+}
+
+.happy .swiper-button-next:after,
+.happy .swiper-button-prev:after {
+  font-size: 20px;
+}
+
+.happy .swiper-pagination {
+  bottom: -10%;
+  position: relative;
+}
+
+.happy .swiper-button-next,
+.happy .swiper-button-prev {
+  top: 25rem;
+}
+
+/*****************happy-end*****************/
+
+/*****************blog*****************/
+
+#blog {
+  background: linear-gradient(0deg, #000000 33%, var(--primary-color) 200%);
+}
+
+.blog {
+  margin: 0 -2.5rem !important;
+}
+
+.blog img {
+  width: 100%;
+  height: 45rem;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.blog h4 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-top: 6rem;
+  text-transform: uppercase;
+}
+
+.blog p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+  margin-top: 2rem;
+}
+
+.blog div:nth-child(even) .blog-data {
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+}
+
+.blog div:nth-child(odd) .blog-data {
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+}
+/************************ blog-end*****************/
+
+/************************footer*****************/
+
+#footer {
+  background: linear-gradient(#000000 33%, var(--primary-color) 200%);
+  padding: 20rem 0 15rem 0;
+}
+
+footer p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+  margin-top: 2rem;
+}
+
+footer h4 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.SERVICES-ul a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+  margin-top: 2rem;
+}
+
+.SERVICES-ul {
+  padding-left: 0;
+}
+
+.SERVICES-ul li {
+  padding: 1rem 0;
+}
+
+iframe {
+  width: 100%;
+}
+
+.map {
+  width: 32.1rem;
+  /* height: 18.5rem; */
+}
+
+.SERVICES-ul i {
+  margin: 0 2rem 0 0;
+}
+
+hr {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.footer {
+  margin: 8rem 0;
+  row-gap: 3rem;
+}
+
+/*****************footer-end*****************/
+
+@media screen and (min-width: 1700px) {
+  .container {
+    max-width: 160rem;
+  }
+
+  .why {
+    margin: 17.2rem -9.1rem 0 -9.1rem;
+  }
+
+  .why1 {
+    margin: 0 9.1rem;
+  }
+
+  #hero {
+    height: 100vh;
+    padding-top: 19.5rem;
+  }
+}
